@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZ4-6</title>
+</head>
+<body>
+
+    <form name='form1'>
+        <label> введите login</label>
+        <input type="login" name='text1' size="20" maxlength="50">
+        <label> введите password</label>
+        <input type="password" name='text2' size="20" maxlength="50">
+        <input type="submit" value="Войти" id='buttonn'>
+    </form>
+
+    <div class="count">
+        <p id='count'>0</p>
+    </div>
+    <div class="buttons">
+        <div class="button">
+            <button onclick='plusCount("plus")'>+</button>
+            <button onclick='minusCount("minus")'>-</button>
+        </div>
+    </div>
+</body>
+<script src='app.js'></script>
+</html>
